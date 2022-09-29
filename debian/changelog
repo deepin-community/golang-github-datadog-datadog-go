@@ -1,0 +1,76 @@
+golang-github-datadog-datadog-go (2.1.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 1.1.0-2.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+  * Apply multi-arch hints. + golang-github-datadog-datadog-go-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 05 Feb 2021 00:55:32 +0000
+
+golang-github-datadog-datadog-go (2.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove myself from uploaders.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 15 Sep 2019 17:44:28 -0400
+
+golang-github-datadog-datadog-go (2.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/copyright: use secure format url.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 17 Nov 2018 21:05:58 -0500
+
+golang-github-datadog-datadog-go (1.1.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 06 Feb 2018 00:02:13 -0500
+
+golang-github-datadog-datadog-go (1.1.0-4) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:39:27 -0500
+
+golang-github-datadog-datadog-go (1.1.0-3) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+  * Priority extra -> optional.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 13:54:09 -0500
+
+golang-github-datadog-datadog-go (1.1.0-2) unstable; urgency=medium
+
+  * Replace golang-go with golang-any in Build-Depends, remove golang-go from
+    Depends
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Aug 2017 19:09:02 +0300
+
+golang-github-datadog-datadog-go (1.1.0-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Bump Standards-Version to 4.0.0.
+  * Set Testsuite to autopkgtest-pkg-go.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 02 Aug 2017 16:33:12 -0400
+
+golang-github-datadog-datadog-go (0.0~git20150930.0.b050cd8-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Alexandre Viau ]
+  * Standards-Version to 3.9.8
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 12 Apr 2017 14:21:29 -0400
+
+golang-github-datadog-datadog-go (0.0~git20150930.0.b050cd8-1) unstable; urgency=medium
+
+  * Initial release (Closes: #807048)
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 04 Dec 2015 09:32:16 -0500

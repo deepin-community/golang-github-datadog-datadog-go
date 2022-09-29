@@ -1,0 +1,24 @@
+Source: golang-github-datadog-datadog-go
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12),
+               dh-golang,
+               golang-any
+Standards-Version: 4.0.0
+Homepage: https://github.com/DataDog/datadog-go
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-datadog-datadog-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-datadog-datadog-go.git
+XS-Go-Import-Path: github.com/DataDog/datadog-go
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-datadog-datadog-go-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Multi-Arch: foreign
+Description: Go client library for datadog
+ Package statsd provides a Go dogstatsd client. Dogstatsd extends
+ the popular statsd, adding tags and histograms and pushing upstream
+ to Datadog.
